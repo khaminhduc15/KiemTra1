@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: plum;
+        }
+        .header{
+            width: 98%;
+            height: 150px;
+            margin: 5px;
+        }
+        .title{
+            width: 100%;
+            height: 110px;
+            background: white;
+            float: left;
+        }
+        .title p,h1 {
+            color: purple;
+        }
+
+        .menu {
+            width: 100%;
+            height: 30px;
+            background-color: purple;
+            float: left;
+        } 
+        .menu span{
+            padding-top: 10px;
+            margin: 10px;
+            color: white;
+            line-height: 25px;
+        }
+        .menu a{
+            color: white;
+            text-decoration: none;
+        }
+        .main{
+            width: 98%;
+            height: 700px;
+        }
+        .left{
+            width: 75%;
+            height: 100%;
+            margin: 5px;
+            float: left;
+        }
+        .box1 {
+            width: 100%;
+            height: 50%;
+            background: white;
+            float: left;
+            margin-bottom: 5px;
+        }
+        .box1 img {
+            width: 95%;
+            height: 35%;
+        }
+        .box1 h3, h5, img, p {
+            margin-left: 10px;
+        }
+        .box2{
+            width: 100%;
+            height: calc(50% - 10px);
+            background: white;
+            float: left;
+            margin-top: 5px;
+        }
+        .box2 img {
+            width: 95%;
+            height: 33%;
+        }
+        .right{
+            width: calc(25% - 20px);
+            height: 100%;
+            margin: 5px;
+            float: left;
+        }
+        .box3{
+            width: 100%;
+            height: 30%;
+            background: white;
+            float: left;
+            margin-bottom: 5px;
+        }
+        .box3 img{
+            width: 95%;
+            height: 33%;
+        }
+        .box3 img, h3, p {
+            margin-left: 10px;
+        }
+        .box4{
+            width: 100%;
+            height: 40%;
+            background: white;
+            float: left;
+            margin-bottom: 5px;
+        }
+        .box4 h4{
+            margin-left: 10px;
+        }
+        .box4 img{
+            margin-left: 10px;
+            margin-bottom: 10px;
+            width: 95%;
+            height: 20%;
+        }
+        .box5{
+            width: 100%;
+            height: 20%;
+            background: white;
+            float: left;
+        }
+        .box5 h4, p{
+            margin-left: 10px;
+        }
+        .footer{
+            margin: 10px;
+            width: 98%;
+            height: 80px;
+            background-color: white;
+            text-align: center;
+            line-height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+        <center>
+            <h1>Website Quản Trị Mạng</h1>
+            <p>Kiến thức - Kinh nghiệm - Hỏi đáp</p>
+        </center>
+        </div>
+        <div class="menu">
+            <span><a href="">Làng Công Nghệ</a></span>
+            <span><a href="">Công Nghệ</a></span>
+            <span><a href="">Cuộc Sống</a></span>
+            <span style="margin-left: 75%;">Đăng ký</span>
+        </div>
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="box1">
+                <h3>Form - Biểu mẫu trong CSS</h2>
+                <h5>Quách Tỉnh, 14/02/2019</h4>
+                <img src="https://anvientv.com.vn/uploads/upload/1673574526_hinh-nen-hoa-tulip-anvien.jpg" alt="Ảnh1">
+                <p>Form là một phần không thể thiếu trong bất kì loại website nào.</p>
+                <p>Ở bài viết này Quantrimang.com sẽ hướng dẫn bạn cách xây dựng phần giao diện hiển thị của một biểu mẫu cơ bản. Giao diện này có thể được làm khá đẹp mắt với CSS</p>
+            </div>
+            <div class="box2">
+                <h3>Attribute Selector trong CSS</h3>
+                <h5>Quách Tỉnh. 12/09/2019</h5>
+                <img src="https://hoahoasaigon.com/wp-content/uploads/2021/11/anh-hoa-dep-nhat-the-gioi-1.jpg" alt="Ảnh 2">
+                <p>Attribute selector là cách chọn các phần tử bạn muốn định kiểu trong tài liệu HTML dựa vào thuộc tính của một hay nhiều thẻ HTML nào đó</p>
+                <p>Attribute selector có thể chọn được các đối tượng mà không cần phải khai báo thêm các Class hoặc ID vào trong thẻ HTML và vẫn có thể hướng được đến các thành phần đó, giúp code gọn gàng và mạch lạc hơn</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="box3">
+                <h3>Giới thiệu</h3>
+                <img src="https://vapa.vn/wp-content/uploads/2022/12/anh-hoa-huong-duong-dep.jpeg" alt="Ảnh 3">
+                <p>Quantrimang.com là mạng xã hội về khoa học công nghệ.</p>
+            </div>
+            <div class="box4">
+                <h4>Nổi bật</h4>
+                <img src="https://hinhnen4k.com/wp-content/uploads/2022/12/hoa-tulip-9.jpg" alt="">
+                <img src="https://anbvietnam.vn/wp-content/uploads/2022/05/hoa_tulip_co_y_nghia_gi_7-600x400.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMY9KwbCLvcASLXiJDmqijBXCfiutG4FjP6kG0RzD-fO5OeJ4h8ntTSekXO8kGr4tv23o&usqp=CAU" alt="">
+            </div>
+            <div class="box5">
+                <h4>Follow me</h4>
+                <p>Facebook</p>
+                <p>Youtube</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>Giấy phép số 362/GP-BTTTT. Bộ TT&TT cấp ngày 30/06/2016.</h3>
+    </div>
+</body>
+</html>
